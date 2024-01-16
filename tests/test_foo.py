@@ -33,34 +33,37 @@ class TestSample:
         assert add("a", "b") == "ab"
 
 
+class Telus:
+    pass
+
+
+def init():
+    name="Ravi"
+    age=12
+    maritial= "unmarried"
+
+
 class Telusko:
 
-    def init(self):
-        name="Ravi";
-        age=12;
-        maritial= "unmarried";
+    def subtract_no(c,d):
 
-    def subtract_no(a,b):
-
-    print("The given values if the number is =", a-b)
+        print("The given values if the number is =", c-d)
 
     def update(self):
-        self.age=31;
-
-      #  Calling the function subtract
+        self.age=31
 
       subtract_no(3,4)
 
     #  Decalared two objects of class Telusko
 
-    object= Telusko()
-    object2=Telusko()
+    object= Telus()
+    object2=Telus()
 
     object.name="Aniket"
-    object.age= 22;
+    object.age= 22
 
     object2.name= "Aayush"
-    object2.age= 23;
+    object2.age= 23
 
     object2.update()
 
